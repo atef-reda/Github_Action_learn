@@ -1,0 +1,13 @@
+name: Hello Actions
+on: push
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello from GitHub Actions!"
+  atef:
+    runs-on: alpine-latest
+    steps:
+      - name: print atef
+        run: echo "hello atef reda"
