@@ -9,5 +9,5 @@ jobs:
   atef:
     runs-on: alpine-latest
     steps:
-      - name: print atef
-        run: echo "hello atef reda"
+    - name: Check OS
+      run: cat /etc/os-release
